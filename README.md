@@ -8,5 +8,5 @@ to Deep Learning, Sydney, Australia, 2017
 
 The keras based implementation code for SLSTM can be found in sparse_lstm.py 
 
-To be continued...
+More complete code with the Tensorflow implementation will be available soon....
 
