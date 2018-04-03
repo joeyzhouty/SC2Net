@@ -61,14 +61,14 @@ To train customized dataset, you need to write a dataset generator class which i
     pb = MnistProblemGenerator(D, lmbd, batch_size=batch_size,
                                    dir_mnist=save_dir, seed=42242) 
 ### Result
-####Mnist 
+#### Mnist 
 Reconstructed images on MNIST: The more black
 is, the lower error is
 ![Mnist](pic/mnist.png?raw=true)
 
 
 
-####Cifar
+#### Cifar
 Reconstructed images on CIFAR-10
 ![Cifar](pic/cifar.png?raw=true)
 
