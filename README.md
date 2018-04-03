@@ -1,4 +1,4 @@
-# sc2net
+# SC2net
 Source codes for 
 
 "SC2Net: Sparse LSTMs for Sparse Coding" (AAAI 2018)
@@ -21,7 +21,7 @@ More complete code with the Tensorflow implementation will be available soon....
  
  
 ### Usage
-To use sparse_lstm
+To achieve SC2Net by using sparse_lstm
 
     from sparse_lstm import Sparse_LSTM_wo_0_Gate_v2
     slstm = Sparse_LSTM_wo_O_Gate_v2(z_dim)
