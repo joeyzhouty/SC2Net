@@ -11,7 +11,7 @@ The keras based implementation code for SLSTM can be found in sparse_lstm.py
 More complete code with the Tensorflow implementation will be available soon....
 
 
-###Requirement
+### Requirement
  * numpy 1.10+
  * matplotlib 1.8+
  * tensorflow 1.0+
@@ -20,7 +20,7 @@ More complete code with the Tensorflow implementation will be available soon....
  * scikit-learn 1.16+
  
  
-###Usage
+### Usage
 To use sparse_lstm
 
     from sparse_lstm import Sparse_LSTM_wo_0_Gate_v2
