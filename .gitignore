@@ -1,0 +1,10 @@
+# Add any directories, files, or patterns you don't want to be tracked by version control
+/save_exp
+/Lcod/save_exp
+~/tmp/
+/data_handlers
+/weights
+/factorisation
+/save_exp_cifar
+/MNIST_data
+/csv
