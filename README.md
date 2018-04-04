@@ -1,9 +1,11 @@
-#SC2Net
+### SC2Net
+If you feel this codes helpful, please cite the the following two papers. 
+
 Source codes for 
 
-"SC2Net: Sparse LSTMs for Sparse Coding" (AAAI 2018)
+* "SC2Net: Sparse LSTMs for Sparse Coding" (AAAI 2018)
 
-"An End-to-end Sparse coding" Presented at the ICML 2017 Workshop on Principled Approaches
+* "An End-to-end Sparse coding" Presented at the ICML 2017 Workshop on Principled Approaches
 to Deep Learning, Sydney, Australia, 2017
 
 The keras based implementation code for SLSTM can be found in Lcod/sparse_lstm.py 
@@ -60,13 +62,11 @@ To train customized dataset, you need to write a dataset generator class which i
     D = create_dictionary_dl(lmbd, K, N=10000, dir_mnist=save_dir)
     pb = MnistProblemGenerator(D, lmbd, batch_size=batch_size,
                                    dir_mnist=save_dir, seed=42242) 
-### Result
+### Visual Result
 #### Mnist 
 Reconstructed images on MNIST: The more black
 is, the lower error is
 ![Mnist](pic/mnist.png?raw=true)
-
-
 
 #### Cifar
 Reconstructed images on CIFAR-10
