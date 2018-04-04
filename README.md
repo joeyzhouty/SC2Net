@@ -51,8 +51,8 @@ To run mnist & cifar reconstruction test
 
 
 
-    python figures.py --data mnist --lmbd .1 -K 100 --save_dir mnist
-    python figures.py --data cifar --lmbd .1 -K 100 --save_dir cifar
+    python figure.py --data mnist --lmbd .1 -K 100 --save_dir mnist
+    python figure.py --data cifar --lmbd .1 -K 100 --save_dir cifar
     #--data determines the dataset to be trained, --K determines the output sparce code length.
 
 To train customized dataset, you need to write a dataset generator class which is similar to Lcod/mnist_problem_generator.py, the generator should contain a class to generate data by batch and a method to generate the pre-learned dictionary. 
