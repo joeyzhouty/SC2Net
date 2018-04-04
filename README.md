@@ -1,5 +1,5 @@
 ### SC2Net
-If you feel this codes helpful, please cite the the following two papers. 
+If you feel this project helpful to your research, please cite the following two papers. 
 
 Source codes for 
 
