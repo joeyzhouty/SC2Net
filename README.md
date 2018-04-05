@@ -20,18 +20,17 @@ More complete code with the Tensorflow implementation will be available soon....
  * numpy 1.10+
  * matplotlib 1.8+
  * tensorflow 1.0+
- * keras 2.0.0+
  * python 2.7
  * scikit-learn 1.16+
  
 
 ### Usage
 To use sparse_lstm independently 
-
-    from Lcod.sparse_lstm import Sparse_LSTM_wo_0_Gate_v2
-    slstm = Sparse_LSTM_wo_O_Gate_v2(z_dim)
-    inputs = Input(shape=(iterations, x_dim), name='input')
-    output = slstm(inputs)
+    from Lcod.SLSTM import SLSTM
+    model = SLSTM(state_size = STATE_SIZE, num_classes=classes, num_layers=LAYERS)
+    model.train(train_set)
+The SLSTM.train method currently is for training specified dataset, a more general train method will be commited in few days. 
+  
     
 To use lista lfista independently
 
