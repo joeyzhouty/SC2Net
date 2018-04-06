@@ -12,8 +12,6 @@ The keras based implementation code for SLSTM can be found in Lcod/sparse_lstm.p
 
 The tensorflow based implementaion code for baseline algorithms lista and lfista can be found in Lcod/lista_network.py Lcod/lfista_network.py. We modify the loss functions of LISTA and FLISTA (parts of codes from [Thomas Moreau github projects](https://github.com/tomMoral/AdaptiveOptim)) to fit the SC2Net framework.
 
-More complete code with the Tensorflow implementation will be available soon....
-
 
 
 ### Requirement
