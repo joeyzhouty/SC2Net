@@ -8,7 +8,7 @@ Source codes for
 * **"An End-to-end Sparse coding" Presented at the ICML 2017 Workshop on Principled Approaches
 to Deep Learning, Sydney, Australia, 2017**
 
-The keras based implementation code for SLSTM can be found in Lcod/sparse_lstm.py 
+This project includes all the baseline (i.e., ISTA, LISTA, FLISTA, LISTA-SC2Net, FLISTA-SC2Net) implementations reported in the paper. The Tensorflow based implementation code for SLSTM can be found in Lcod/sparse_lstm.py 
 
 The tensorflow based implementaion code for baseline algorithms lista and lfista can be found in Lcod/lista_network.py Lcod/lfista_network.py. We modify the loss functions of LISTA and FLISTA (parts of codes from [Thomas Moreau github projects](https://github.com/tomMoral/AdaptiveOptim)) to fit the SC2Net framework.
 
