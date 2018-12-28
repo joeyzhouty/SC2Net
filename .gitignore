@@ -2,7 +2,8 @@
 /save_exp/*
 /Lcod/save_exp/*
 ~/tmp/*
-/data_handlers/*
+/data_handlers/*.pkl
+/data_handlers/recon_sparse/*.pkl
 /weights/*
 /factorisation/*
 /save_exp_cifar/*
