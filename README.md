@@ -55,6 +55,7 @@ To run mnist & cifar reconstruction test
     #To generate the reconstructed pic of mnist cifar, run the following codes,these codes are in line 295 to 
     # line 314 in figure.py script, reconstructed pics would be shown automatically, so that there may be some 
     # errors when using remote ssh connection. 
+    
     re_lis = lis.reconstruct(pb,lmbd=lmbd)
     re_lfis = lfis.reconstruct(pb,lmbd=lmbd)
     from reconstruct import reconstrcuct_drow
